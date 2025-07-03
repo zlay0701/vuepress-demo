@@ -7,8 +7,8 @@ export default defineUserConfig({
   base: "/",
 
   lang: "zh-CN",
-  title: "zlay - 素喂’Blog",
-  description: "Java技术博客",
+  title: "Vuepress Hope Demo",
+  description: "这是描述",
 
   theme,
 
