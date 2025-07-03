@@ -3,13 +3,12 @@ home: true
 layout: Blog
 icon: house
 title: 主页
-#heroImage: /uploads3/images/zlay_logo.png
+heroImage: /uploads3/images/maomao1.jpg
 bgImage: /uploads3/images/background1.jfif
 bgImageDark: /uploads3/images/background2.jfif
-# heroText: zlay - 素喂’Blog
-heroText: 你必须很努力,才能看起来毫不费力
+heroText: Vuepress Hope Demo
 heroFullScreen: false
-# tagline: 你必须很努力,才能看起来毫不费力
+tagline: 这里是副标题
 projects:
   - icon: folder-open
     name: Github主页
