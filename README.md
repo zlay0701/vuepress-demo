@@ -18,3 +18,4 @@ npm install
 npm run docs:clean-dev
 ```
 6. 访问浏览器 http://127.0.0.1:8080/ 测试即可
+7. 导航栏和侧边栏的图标 见 https://icon-sets.iconify.design/fa6-solid/page-17.html?keyword=fa6-solid 无需前缀
