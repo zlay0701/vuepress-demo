@@ -7,13 +7,13 @@ export default hopeTheme({
   hostname: "https://vuepress.zlay.fun/",
   copyright: "License <a target='blank' href='https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans'>BY-NC-SA</a> | Copyright © 2016-"+new Date().getFullYear()+" 素喂",
   author: {
-    name: "素喂",
+    name: "作者名称",
     url: "https://vuepress.zlay.fun/",
   },
 
   logo: "/uploads3/images/maomao2.jpg",
 
-  repo: "zlay0701",
+  repo: "Github仓库用户名",
 
   docsDir: "src",
 
@@ -30,7 +30,7 @@ export default hopeTheme({
   // 博客相关
   blog: {
     avatar: "/uploads3/images/web-app-manifest-512x512.png",
-    description: "一个90后",
+    description: "作者的描述",
     intro: "/about/",
     medias: {
       GitHub: "https://github.com/zlay0701",
