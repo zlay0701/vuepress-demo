@@ -156,7 +156,8 @@ export default hopeTheme({
     //   provider: "Waline",
     //   serverURL: "https://waline.test.com",
     //   search: false,
-    //   imageUploader: false
+    //   imageUploader: false,
+    //   requiredMeta: ['nick', 'mail'],
     // },
 
     components: {
