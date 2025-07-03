@@ -23,11 +23,6 @@ export default navbar([
           icon: "book-tanakh",
           link: "post/",
         },
-        {
-          text: "文档",
-          icon: "swatchbook",
-          link: "doc/",
-        },
       ]
   },
     {
@@ -65,31 +60,11 @@ export default navbar([
           icon: "file-code",
           link: "portfolio/",
         },
-        {
-          text: "备忘",
-          icon: "bookmark",
-          link: "faqs/",
-        },
-        {
-          text: "随笔",
-          icon: "leaf",
-          link: "/category/随笔/",
-        },
-        {
-          text: "网址发布页",
-          icon: "link",
-          link: "https://www.cnblogs.com/zlay0701/p/18912013",
-        }
       ]
     },
   {
     text: "友链",
     icon: "feather-pointed",
     link: "friends/",
-  },
-  {
-    text: "留言",
-    icon: "message",
-    link: "contact/",
   },
 ]);
