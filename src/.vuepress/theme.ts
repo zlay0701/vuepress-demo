@@ -11,7 +11,7 @@ export default hopeTheme({
     url: "https://vuepress.zlay.fun/",
   },
 
-  logo: "/uploads3/images/favicon.svg",
+  logo: "/uploads3/images/maomao2.jpg",
 
   repo: "zlay0701",
 
