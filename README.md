@@ -19,3 +19,27 @@ npm run docs:clean-dev
 ```
 6. 访问浏览器 http://127.0.0.1:8080/ 测试即可
 7. 导航栏和侧边栏的图标 见 https://icon-sets.iconify.design/fa6-solid/page-17.html?keyword=fa6-solid 无需前缀
+
+# 版本依赖
+```
+@vuepress/plugin-feed 版本冲突：
+项目直接依赖的版本是 2.0.0-rc.110
+但 vuepress-theme-hope@2.0.0-rc.93 要求的是 2.0.0-rc.109
+
+@vuepress/plugin-search 版本冲突：
+项目直接依赖的版本是 2.0.0-rc.110
+但 vuepress-theme-hope@2.0.0-rc.93 要求的是 2.0.0-rc.109
+
+@vuepress/plugin-feed@2.0.0-rc.110 这个插件要求的是 vuepress@2.0.0-rc.23
+```
+
+目前版本, 后续更新 需要等hope主题先更新 见
+https://www.npmjs.com/package/vuepress-theme-hope?activeTab=code
+```
+vuepress 2.0.0-rc.23
+hope     2.0.0-rc.93
+
+插件
+feed 2.0.0-rc.109
+search 2.0.0-rc.109
+```
