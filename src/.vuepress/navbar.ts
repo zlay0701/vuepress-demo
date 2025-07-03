@@ -67,4 +67,16 @@ export default navbar([
     icon: "feather-pointed",
     link: "friends/",
   },
+  {
+      text: "测试",
+      icon: "user-group",
+      children:[
+        "/demo/",
+        "/demo2/",
+        "/demo3/",
+        "/demo4/",
+        "/test-image-path-1.md",
+        "/test-image-page-2/",
+      ]
+    },
 ]);
