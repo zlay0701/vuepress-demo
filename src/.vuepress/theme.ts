@@ -173,11 +173,14 @@ export default hopeTheme({
     },
 
     search: {
+      maxSuggestions: 10,
       // 配置需要搜索的字段
       getExtraFields: (page) => [
         page.content || '',  // 搜索页面全部内容
         page.frontmatter.description || '',  // 搜索描述
         // 可以添加更多字段...
+        page.frontmatter.title || '',
+        page.filePath || '',
       ],
     },
     // 如果你需要 PWA。安装 @vuepress/plugin-pwa 并取消下方注释
