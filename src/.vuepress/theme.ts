@@ -163,6 +163,14 @@ export default hopeTheme({
     //   imageUploader: false,
     //   requiredMeta: ['nick', 'mail'],
     // },
+    comment: {
+      provider: "Giscus", // Artalk | Giscus | Waline | Twikoo
+      repo: "zlay0701/hexo-demo-comments",
+      repoId: "R_kgDOOyeurg",
+      category: "giscus-category",
+      categoryId: "DIC_kwDOOyeurs4Ctuxg",
+      mapping: "pathname"
+    },
 
     components: {
       components: ["Badge", "VPCard"],
